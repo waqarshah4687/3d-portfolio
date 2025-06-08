@@ -3,8 +3,9 @@ import { Link } from "react-router-dom";
 
 import { styles } from "../../constants/styles";
 import { navLinks } from "../../constants";
-import { logo, menu, close } from "../../assets";
-import { config } from "../../constants/config";
+import { menu, close } from "../../assets";
+import { logo } from "../../assets"; // Update this import to use the logo directly
+// import { config } from "../../constants/config";
 
 const Navbar = () => {
   const [active, setActive] = useState<string | null>();
@@ -64,9 +65,13 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt="logo" className="h-9 w-9 object-contain" />
+          <img 
+            src={logo} 
+            alt="logo" 
+            className="h-12 w-12 object-contain brightness-125 contrast-125 opacity-100" 
+          />
           <p className="flex cursor-pointer text-[18px] font-bold text-white ">
-            {config.html.title}
+            Waqar Shah
           </p>
         </Link>
 

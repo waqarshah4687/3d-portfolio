@@ -181,7 +181,7 @@ const experiences: TExperience[] = [
 const testimonials: TTestimonial[] = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+      "I thought it was impossible to make a website as beautiful as our product, but Waqar proved me wrong.",
     name: "Sara Lee",
     designation: "CFO",
     company: "Acme Co",
@@ -189,7 +189,7 @@ const testimonials: TTestimonial[] = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+      "I've never met a web developer who truly cares about their clients' success like Waqar does.",
     name: "Chris Brown",
     designation: "COO",
     company: "DEF Corp",
@@ -197,12 +197,36 @@ const testimonials: TTestimonial[] = [
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      "After Waqar optimized our website, our traffic increased by 50%. We can't thank them enough!",
     name: "Lisa Wang",
     designation: "CTO",
     company: "456 Enterprises",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
+  {
+    testimonial:
+      "Waqar's expertise in 3D animations and React made our website stand out from competitors.",
+    name: "Ahmed Khan",
+    designation: "Founder",
+    company: "Tech Innovators",
+    image: "https://randomuser.me/api/portraits/men/8.jpg",
+  },
+  {
+    testimonial:
+      "The user interface Waqar designed for our app was both beautiful and highly intuitive.",
+    name: "Sophia Chen",
+    designation: "Product Manager",
+    company: "Innovation Labs",
+    image: "https://randomuser.me/api/portraits/women/9.jpg",
+  },
+  {
+    testimonial:
+      "Working with Waqar was amazing. They delivered the project on time and exceeded our expectations.",
+    name: "James Wilson",
+    designation: "Director",
+    company: "Digital Solutions",
+    image: "https://randomuser.me/api/portraits/men/10.jpg",
+  }
 ];
 
 const projects: TProject[] = [

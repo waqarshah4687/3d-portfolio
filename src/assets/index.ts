@@ -1,4 +1,4 @@
-import logo from "./logo.png";
+import logo from "./artwork.png"; // Change to match your actual file name
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -31,7 +31,7 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 export {
-  logo,
+  logo, // This will now export your WS logo
   backend,
   creator,
   mobile,
@@ -60,3 +60,6 @@ export {
   jobit,
   tripguide,
 };
+
+// Remove this line as we're now using the logo import directly
+// export { default as ws_logo } from './ws_logo.png';

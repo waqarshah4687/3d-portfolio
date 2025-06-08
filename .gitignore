@@ -1,1 +1,11 @@
+# Environment variables
+.env
 AppData/
+node_modules
+
+fatal: pathspec '.env' did not match any files
+
+Your current `.gitignore` already has the correct configuration:
+
+# Local Netlify folder
+.netlify
